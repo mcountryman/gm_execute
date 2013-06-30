@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="include">
+			<UniqueIdentifier>{023233F4-8146-1142-BA37-1CCF3B211F8A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="source">
+			<UniqueIdentifier>{15027B8B-9D47-B14C-A722-731304B63EB1}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\..\include\ILuaInterface.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\ILuaModuleManager.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\ILuaObject.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\ILuaTable.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\LuaBase.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\LuaInterface.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\Types.h">
+			<Filter>include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\include\UserData.h">
+			<Filter>include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\..\source\main.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\include\ILuaInterface.cpp">
+			<Filter>include</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\include\ILuaModuleManager.cpp">
+			<Filter>include</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\include\ILuaObject.cpp">
+			<Filter>include</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>
