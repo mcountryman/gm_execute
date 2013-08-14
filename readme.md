@@ -13,8 +13,8 @@ Windows:
 ###Reference
 ```lua
 --[[
-  Finds files and folders from a search path.
-
+  Runs a shell command and returns stdout.
+  
   @param  string  search  Shell input
   @return string          stdout
 ]]
