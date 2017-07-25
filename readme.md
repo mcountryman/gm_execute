@@ -1,21 +1,15 @@
-##gm_execute
-A garrysmod module that enables os.execute.
+# gm_execute
+A Garry's Mod module that enables `os.execute`.
 
-###Release
-Linux:	
-* Server: [gmsv_execute_linux.so](https://github.com/marvincountryman/gm_execute/blob/master/bin/linux/release/gmsv_execute_linux.so?raw=true) 
-* Client: [gmcl_execute_linux.so](https://github.com/marvincountryman/gm_execute/blob/master/bin/linux/release/gmcl_execute_linux.so?raw=true)
+## Release
+For releases, click the releases tab.
 
-Windows: 
-* Server: [gmsv_execute_win32.dll](https://github.com/marvincountryman/gm_execute/blob/master/bin/windows/release/gmsv_execute_win32.dll?raw=true) 	
-* Client: [gmcl_execute_win32.dll](https://github.com/marvincountryman/gm_execute/blob/master/bin/windows/release/gmcl_execute_win32.dll?raw=true)
-
-###Reference
+## Reference
 ```lua
 --[[
   Runs a shell command and returns stdout.
   
-  @param  string  search  Shell input
+  @param  string  shell   Shell input
   @return string          stdout
 ]]
 os.execute(shell)
