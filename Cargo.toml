@@ -1,0 +1,13 @@
+[package]
+name = "gm_execute"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mlua = { version = "0.6", features = ["luajit", "vendored"] }
+which = "4.2"
+anyhow = "1.0"
+thiserror = "1.0"

@@ -1,7 +1,1 @@
-bin/
-project/
-
-.DS_Store
-._.DS_Store
-
-Thumbs.db
+target/
