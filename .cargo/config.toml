@@ -1,0 +1,5 @@
+[env]
+LUA_INC = "vendor/luajit"
+LUA_LIB = "target/vendor/garrysmod/lua"
+LUA_LIB_NAME = "lua_shared.so"
+LUA_LINK = "dynamic"

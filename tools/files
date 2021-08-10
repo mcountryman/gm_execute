@@ -1,0 +1,12 @@
+garrysmod/bin/lua_shared.so
+garrysmod/bin/lua_shared_srv.so
+garrysmod/bin/lua_shared.dll
+garrysmod/bin/lua_shared.dylib
+
+bin/libtier0.so
+bin/libtier0_srv.so
+
+bin/libvstdlib.so
+bin/libvstdlib_srv.so
+
+bin/libsteam_api.so
