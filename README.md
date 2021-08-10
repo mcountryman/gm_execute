@@ -10,8 +10,9 @@ For releases, click the releases tab.
 require "execute"
 
 --- Executes supplied command on shell.
--- 
+-- If the command executes with status code zero the function returns the stdout as a 
+-- string.  If the status is non-zero the function returns the stderr as a string.
 -- @param command The shell command to execute.
--- @returns Either `stdout` or `stderr`.
+-- @returns Either `stdout` or `stderr` from shell.
 os.execute(command)
 ```
